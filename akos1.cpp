@@ -3,7 +3,7 @@
 
 	int main(){
 	string employeename ;
-	int tax, basicsalary, SSNIT, netsalary;
+	double tax, basicsalary, SSNIT, netsalary;
 	
 	cout << "Enter employeename";
 	cin >> employeename ;
@@ -12,14 +12,14 @@
 	cin >> basicsalary;
 	
 	// calculation
-	tax = 30 * basicsalary ;
-	cout << "tax : " << endl ;
+	tax =0.30 * basicsalary ;
+	cout << "tax : " << tax<< endl ;
 	
-	SSNIT = 20 * basicsalary ;
-	cout << "SSNIT :" << endl ;
+	SSNIT = 0.20 * basicsalary ;
+	cout << "SSNIT :" << SSNIT << endl ;
 	 
 	 netsalary = basicsalary - ( tax + SSNIT) ;
-	 cout << " netsalary : " << endl ;
+	 cout << " netsalary : " << netsalary << endl ;
 	 
 	 return 0 ;
 	 
