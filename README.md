@@ -13,6 +13,6 @@ This is a console-based  **Payroll Calculator Application** developed in C++ as 
 * **Console Output Summary:** Displays the calculated tax, SSNIT, and net salary values instantly.
 
 ## Core Concepts Demonstrated
-* **Variables and Data Types:** Efficient use of 'string'and 'int' to store payroll information.
+* **Variables and Data Types:** Efficient use of 'string'and 'double' to store payroll information.
 * **Basic Arithemetic Operators:** Using formulas to calculate percentages and differences.
 * ** Standard Input/Output:** Utilizing 'std::cin' and 'std::cout' for seamless terminal interactions.
